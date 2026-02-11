@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Bulb Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>💡 Smart Bulb</h1>
+
+        <!-- Bulb Image -->
+        <img 
+            id="bulb" 
+            src="https://www.w3schools.com/js/pic_bulboff.gif" 
+            alt="Bulb Image"
+        >
+
+        <!-- Status Text -->
+        <p id="status">Status: OFF</p>
+
+        <!-- Toggle Button -->
+        <button id="toggleBtn">Turn ON</button>
+
+        <!-- Brightness Slider -->
+        <div class="slider-container">
+            <label for="brightness">Brightness:</label>
+            <input 
+                type="range" 
+                id="brightness" 
+                min="50" 
+                max="150" 
+                value="100"
+            >
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
